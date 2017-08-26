@@ -1,69 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
+  <head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<title>Basic Header</title>
+    <title>NUR site</title>
 
-	<link rel="stylesheet" href="assets/demo.css">
-	<link rel="stylesheet" href="assets/header-basic.css">
-	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/half-slider.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">"NUR" site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">ГЛАВНАЯ
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О НАС</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">СЕРВИС</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">КОНТАКТ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Слайд 1-->
+          <div class="carousel-item active" style="background-image:  url('image/3.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>ЖІБЕК ЖОЛЫ</h3>
+              <p>ИНТЕРНЕТ МАГАЗИН</p>
+            </div>
+          </div>
+
+          <!-- Слайд 2 -->
+          <div class="carousel-item" style="background-image: url('image/2.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>ҚОШ КЕЛДІҢ!</h3>
+              <p>Екінші слайд бойынша анықтама.</p>
+            </div>
+          </div>
+
+          <!-- СЛАЙД 3 -->
+          <div class="carousel-item" style="background-image: url('image/1.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>СЛАЙД ҮШІНШІ</h3>
+              <p>Үшінші слайд бойынша анықтама.</p>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
 
 
-</head>
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1>Half Slider by Start Bootstrap</h1>
+        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
+          <code>half-slider.css</code>file.</p>
+      </div>
+    </section>
 
-	<body>
+    <div class="row">
 
-		<header class="header-basic">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Item One</a>
+                  </h4>
+                  <h5>$24.99</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
 
-			<div class="header-limiter">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Item Two</a>
+                  </h4>
+                  <h5>$24.99</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
 
-				<h1><a href="#">Company<span>logo</span></a></h1>
-
-				<nav>
-					<a href="#">Home</a>
-					<a href="#" class="selected">Blog</a>
-					<a href="#">Pricing</a>
-					<a href="#">About</a>
-					<a href="#">Faq</a>
-					<a href="#">Contact</a>
-				</nav>
-			</div>
-
-		</header>
-
-		<!-- The content of your page would go here. -->
-
-
-		<div class="menu">
-
-			<img src="assets/demo-arrow.png" alt="arrow" height="120">
-			<h1>Freebie: 7 Responsive Header Templates</h1>
-
-			<h2><a href="http://tutorialzine.com/2015/02/freebie-7-responsive-header-templates/">Download</a></h2>
-
-			<ul>
-				<li><a href="index.html" class="active">Basic</a></li>
-				<li><a href="header-basic-light.html">Basic Light</a></li>
-				<li><a href="header-fixed.html">Fixed</a></li>
-				<li><a href="header-login-signup.html">Login/Sign up</a></li>
-				<li><a href="header-search.html">Search</a></li>
-				<li><a href="header-second-bar.html">Second Bar</a></li>
-				<li><a href="header-user-dropdown.html">User Dropdown</a></li>
-			</ul>
-
-		</div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Item One</a>
+                  </h4>
+                  <h5>$24.99</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; NurTEL 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-		<!-- Demo ads. Please ignore and remove. -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
-
-	</body>
+  </body>
 
 </html>
